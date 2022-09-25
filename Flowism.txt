@@ -2,26 +2,21 @@
     None=None
     Font=normal
 
-
 [General]
     Cancel=Cancel
     Close=Close
 
-
     Open_Settings_Button=Config.cfg
     Open_Cheats_Button=Flowism’s Blessings
     Help=Help
-
 
     Build_Rocket=Build Rocket
     Resume_Game=Continue
     Return_To_Main_Menu=Back
     Exit_To_Main_Menu=Quit
 
-
 [Main Menu]
     Play=Play
-
 
 # Tutorial
     Video_Tutorials_OpenButton=Video Tutorials
@@ -29,18 +24,15 @@
     Video_Moon=How to land on the moon?
     Video_Dock=How to dock?
 
-
 # Community
-    Community_OpenButton=Community
-    Community_Youtube=Youtube
-    Community_Discord=Discord
-    Community_Reddit=Reddit
-    Community_Forums=Forums
-
+    Community_OpenButton=Communication funity
+    Community_Youtube=Your tube
+    Community_Discord=Disk cord
+    Community_Reddit=Red did it
+    Community_Forums=For our ms
 
 # Credits
     Credits_OpenButton=Cool people list
-
 
     Credits_Text=Å tefo Mai Morojna
     Credits_Text=<Size=55> Making this game </size>
@@ -57,18 +49,15 @@
     Credits_Text=You
     Credits_Text=<size=55> Playing this game </size>
 
-
 # Update menu
     Update_Available=Your version is outdated, so it’s recommended to update it.
     Update_Available=
     Update_Available=The version you have: %old%
     Update_Available=The latest version: %new%
 
-
     Update_Confirm=Update pls
     Update_Overview_Video_Available=Check out what's new this update?
     Update_Overview_Video_Confirm=Open
-
 
 # Rate menu
     Rate_Title=Would you like to rate or review the game?
@@ -77,53 +66,42 @@
     Rate_Title=
     Rate_Title=It’s still your choice though.
 
-
     Rate_Confirm=Rate it
-
 
 # Close menu
     Exit_Button=Exit
     Close_Game=Close game?
 
-
 [Worlds Menu]
     Create_New_World_Button=Create New Universe
     World_Delete=Delete universe?
-
-
+    
 # Create menu
     Create_World_Title=World Name:
     Default_World_Name=My Universe
     Select_Solar_System=Select universe's galaxy
-
 
     Select_Solar_System__NotFound=The following galaxy could not be found:
     Select_Solar_System__NotFound=%system%
     Select_Solar_System__NotFound=
     Select_Solar_System__NotFound=Please select a new galaxy.
 
-
-    Default_Solar_System=Solar System (Default)
     Custom_Solar_System=%name% (Custom)
-
 
 # World info
     Last_Played=Last played: %value% ago
     Just_Played=Last played: A moment ago
     Time_Played=Playtime: %value%
 
-
     World_Difficulty_Name=Difficulty: %value%
     Difficulty_Normal=Normal
     Difficulty_Hard=Hard
     Difficulty_Realistic=Realistic
 
-
     World_Mode_Name=Mode: %value%
     Mode_Classic=Classic
     Mode_Career=Career
     Mode_Sandbox=Sandbox
-
 
 [World Create Menu]
     World_Create_Title=Create Universe
@@ -132,12 +110,10 @@
     Mode_Label=Mode:
     Difficulty_Label=Difficulty:
 
-
     Difficulty_Scale_Stat=Scale: 1:%scale%
     Difficulty_Isp_Stat=Specific Impulse: %value%x
     Difficulty_Dry_Mass_Stat=Tank Dry Mass: %value%x
     Difficulty_Engine_Mass_Stat=Engine Mass: %value%x
-
 
 [Saving]
 # Blueprint stuff
@@ -147,13 +123,11 @@
     Load_Blueprint=Load Spacecraft
     Cannot_Save_Empty_Build=You cannot save something that’s empty. Please build something to save it.
 
-
 # Quicksave stuff
     Quicksaves_Menu_Title=Snapshots
     Unnamed_Quicksave=Unnamed Snapshot
     Create_Quicksave=Create Snapshot
     Load_Quicksave=Load Snapshot
-
 
 # Save and load menus
     Save=Save
@@ -161,13 +135,12 @@
     Import=Import
     Delete=Delete
     Rename=Rename
-
+    Delete_File_With_Type=Delete %filename% %filetype{1}%
 
 # In progress
     Saving_In_Progress=Saving… complete.
-    Loading_In_Progress=Loading… complete.
+    Loading_In_Progress=Loading… 
     Importing_In_Progress=Importing… complete.
-
 
 # filetype (injected)
     Blueprint{0}=Blueprint
@@ -177,25 +150,18 @@
     Quicksave{1}=quicksave
     Quicksave{2}=quicksaves
 
-
 # Ask overwrite menu
     File_Already_Exists=A %filetype{1}% with this name already exists
     Overwrite_File=Overwrite %filetype{1}%
     New_File=New %filetype{1}%
 
-
 # Load failure
     Load_Failed=Could not load %filetype{1}% from %filepath%
-
-
     Conversion_Success=Detected a 1.4 %filetype{1}% and converted it to %version% format
-
-
     Conversion_Failed=Detected a 1.4 %filetype{1}% and converted it to %version% format
     Conversion_Failed=
     Conversion_Failed=Conversion failed:
     Conversion_Failed=%reason%
-
 
 [Purchasing]
     Open_Shop_Menu=The Shop
@@ -211,46 +177,36 @@
     Full_Bundle=Everything
     Upgrade_To_Full_Bundle=Upgrade To Everything
 
-
     More_Parts=More Parts...
     More_Skins=More Skins...
     Cannot_Use_Cheats_In_Career=Flowism does not allow you to use his blessings in a Career mode world to keep it fair. Use Sandbox mode instead
     Get_Infinite_Build_Area_Button=Get Infinity Spacecraft
     Get_Cheats_Expansion_Button=Get Flowism’s Blessings
 
-
     Buy_Product=Buy %product% %price%
-
 
     Timed_Sale_Text=%product_name% -%sale_percent%
     Timed_Sale_Text=%time_left%
 
-
     Time_Upgrade_Text=Beginner’s Sale: Upgrade to %product_name% -%sale_percent%
     Time_Upgrade_Text=%time_left%
-
 
     Purchase_Thanks_Msg=Purchased: %product%
     Purchase_Thanks_Msg=
     Purchase_Thanks_Msg=Nice, you have bought %product%
     Purchase_Thanks_Msg=Enjoy it!
 
-
     Owned=%product% (Owned)
 
-
     Restore_Open=Restore from account
-
 
 # Parts Expansion
     PartsExpansion_Tanks=More tanks to hold more fuel
     PartsExpansion_Engines=More engines for more thrust
     PartsExpansion_Parts=Lots and lots of parts
 
-
     PartsExpansion_Build=There’s also a large build space to bring
     PartsExpansion_Build=your imagination to this game
-
 
 # Skins Expansion
     SkinsExpansion_Tanks=Skins like osu! skins (I shouldn't have said that)
@@ -258,16 +214,13 @@
     SkinsExpansion_Nosecones=Yes, and nosecones
     SkinsExpansion_Fairings=And as expected fairings
 
-
 # Planets Expansion
     PlanetsExpansion_Jupiter=Jupiter is waiting for you to buy this pack
     PlanetsExpansion_Callisto=As well as Callisto,
     PlanetsExpansion_Europa=and Europa
 
-
     PlanetsExpansion_Conclusion=Oh and also Io and Ganymede are waiting as well
     PlanetsExpansion_Conclusion=So what are you waiting for?
-
 
 [Sharing]
     Share_Button=Share Spacecraft
@@ -287,7 +240,6 @@
     URL_Invalid=Invalid Spacecraft URL.
     Sharing_Connect_Fail=Could not connect to sharing servers
 
-
 [Settings Mobile]
     Music_Name=Set this to above 50% at all times
     Sound_Name=SFX thingies
@@ -297,7 +249,6 @@
     Menu_Scale=The’s Power
     Menu_Opacity=The’s Effectiveness
     Cloud_Sync=The Cloud
-
 
 [Cheats]
     Infinite_Build_Area_Name=Infinite Spacecraft Size (Only Effective when building)
@@ -309,7 +260,6 @@
     No_Heat_Damage_Name=Heat Shield
     No_Burn_Marks_Name=No Burn Marks
 
-
 [Active Cheats]
     Using_Infinite_Build_Area=Infinite Spacecraft Size
     Using_Part_Clipping=Noclipping ON
@@ -320,54 +270,43 @@
     Using_No_Heat_Damage=Heat Shield ONLINE
     Using_No_Burn_Marks=No Burn Marks
 
-
 [Tutorials]
-
 
     Tut_Drag_And_Drop=Drag and drop parts
     Tut_Drag_And_Drop=to build your rocket
 
-
     Tut_Part_Info=Click to view
     Tut_Part_Info=part information
-
 
     Tut_Use_Part=Click on parts to use them
     Tut_Ignition=Ignition!
     Tut_Throttle=Adjust throttle
 
-
 [Hub]
-    Funds_Text=Funds: %funds%
+    Funds_Text=%funds%$
     Go_To_Space_Center=Space Center
     Exit_To_Space_Center=Exit To Space Center
     Research_And_Development=RND %complete%/%total%
     Achievements_Title=Achievements:
     Achievements_Button=Achievements %complete%/%total%
 
-
 [Build]
-    Build_New_Rocket=Go to Empty State
+    Build_New_Rocket=Build New Spacecraft
     New=New
-    Expand_Last_Rocket=Clone Previous Rocket
-
+    Expand_Last_Rocket=Clone Previous Spacecraft
 
     Symmetry_On=Symmetry: On
     Symmetry_Off=Symmetry: Off
 
-
     Interior_View_On=Interior View: On
     Interior_View_Off=Interior View: Off
 
-
     Launch_Button=Launch
-    Move_Rocket_Button=Move Rocket
-
+    Move_Rocket_Button=Ctrl+A
 
 # Clear build area
     Clear_Warning=Clear build area?
     Clear_Confirm=Clear
-
 
 # Launch warnings
     Warnings_Title=Just a heads up!
@@ -375,11 +314,9 @@
     Missing_Parachute=Your spacecraft has no parachute, it could crash when attempting to land.
     Missing_Heat_Shield=Your spacecraft has no heat shield, thus it can burn in the atmosphere when attempting to go to space.
 
-
     Too_Heavy=Your spacecraft is too heavy for its thrust!
     Too_Heavy=%mass%
     Too_Heavy=%thrust%
-
 
     Launch_Anyway_Button=Idc proceed with launch
 
@@ -393,22 +330,10 @@
 
 
 [Map]
-    Toggle_Map_Button=Map
-
-
-# Shown in map when you escape a gravity field of a planet
+    Toggle_Map_Button=Navigation
     Escape=Exiting SOI here
-
-
-# Shown in map when you encounter/enter a gravity field of a planet
     Encounter=Entering SOI here
-
-
-# Shown in map when you approach/encounter another rocket
     Rendezvous=Rendezvous here
-
-
-# Shows the transfer window to another planet
     Transfer=Transfer Window
 
 
@@ -418,27 +343,22 @@
     Ignition=IGNITION!
     RCS=RCS
 
-
 # Game supports screen rotation, we split into 2 lines in vertical mode
     Height_Terrain_Vertical=Height (Terrain):
     Height_Terrain_Vertical=
     Height_Terrain_Vertical=%height%
 
-
     Height_Vertical=Height:
     Height_Vertical=
     Height_Vertical=%height%
-
 
     Velocity_Vertical=Velocity:
     Velocity_Vertical=
     Velocity_Vertical=%speed%
 
-
     Angle_Vertical=Angle:
     Angle_Vertical=
     Angle_Vertical=%angle% / %targetAngle%
-
 
     Height_Terrain_Horizontal=Height (Terrain): %height%
     Height_Horizontal=Height: %height%
@@ -446,44 +366,46 @@
     Angle_Horizontal=Angle: %angle% / %targetAngle%
 
 
-[Game menus]
-    Restart_Mission=Restart Mission
+[Failure menu]
+    Failure_Cause=MISSION FAILED. The mission failed because
+    Failure_Crash_Into_Rocket=It crashed into another rocket.
+    Failure_Crash_Into_Terrain=It crashed on the surface of %planet{1}%.
+    Failure_Burn_Up=It burned up on reentry. 
+    
+[End mission menu]
     Recover_Rocket=Recover
     Destroy_Rocket=Destroy
 
+[Game menus]
+    Restart_Mission=Restart Mission
+    Recover_Rocket=Recover
+    Destroy_Rocket=Delete
 
 # Restart menu
     Restart_Mission_To_Launch=Go back to launch
-
 
     Restart_Mission_To_Launch_Warning=Go back to launch?
     Restart_Mission_To_Launch_Warning=
     Restart_Mission_To_Launch_Warning=WARNING:
     Restart_Mission_To_Launch_Warning=This will effectively delete most progress since this launch!
 
-
     Restart_Mission_To_Build=Go back to Building
-
 
     Restart_Mission_To_Build_Warning=Go back to building?
     Restart_Mission_To_Build_Warning=
     Restart_Mission_To_Build_Warning=WARNING:
-    Restart_Mission_To_Build_Warning=This will effectively delete all progress since last launch!
-
+    Restart_Mission_To_Build_Warning=This will effectively delete all progress since this launch!
 
 # End mission menu
     End_Mission_Menu_Title=Mission Achievements:
     End_Mission=End Mission
-
 
 # Clear space junk/debris
     Clear_Debris_Warning=Clear junk?
     Clear_Debris_Warning=
     Clear_Debris_Warning=This will delete all junk and debris in space, including ones from failed missions.
 
-
     Clear_Debris_Confirm=Clear junk
-
 
 # Select menu
     Navigate_To=Navigate To
@@ -492,25 +414,12 @@
     Unfocus=Unfocus
     Switch_To=Switch To
 
-
 [Rocket]
     Default_Rocket_Name=Spacecraft
-
-
-# Informs the player that he cannot perform an action due to rocket having no control
-    No_Control_Msg=You can’t control this rocket anymore.
-
-
-# Failure menu
-    Failure_Cause=MISSION FAILED. The mission failed because
-    Failure_Crash_Into_Rocket=It crashed into another rocket
-    Failure_Crash_Into_Terrain=It crashed on the surface of %planet{1}%
-    Failure_Burn_Up=It burned up on reentry. Try to add heat shields next time
-
+    No_Control_Msg=You can’t control this Spacecraft anymore.
 
 [Timewarp]
     Msg_Timewarp_Speed=Time acceleration %speed%x
-
 
     Cannot_Timewarp_Below_Basic=Flowism’s Time can’t timewarp below %height%
     Cannot_Timewarp_Below=Flowism’s Time can’t timewarp faster than %speed%x while below %height% due to unexpected crashes.
@@ -519,9 +428,7 @@
     Cannot_Use_Part_While_Timewarping=You can’t use %part{1}% while timewarp is taking place.
     Cannot_Turn_While_Timewarping=You can’t turn while timewarp is taking place due to universe glitching.
 
-
     Timewarp_To_Button=Timewarp Here
-
 
 [Units]
     Thrust_To_Weight_Ratio=Thrust / Weight: %value%
@@ -534,13 +441,11 @@
     Km_Unit=km
     Meter_Per_Second_Unit=m/s
 
-
 [Timestamps]
     Second_Short=%value%s
     Minute_Short=%value%m
     Hour_Short=%value%h
     Day_Short=%value%d
-
 
 [Resource Types]
     Solid_Fuel{0}=Solid fuel
@@ -548,13 +453,11 @@
     Liquid_Fuel{0}=Liquid fuel
     Liquid_Fuel{1}=liquid fuel
 
-
 [Resource Uses]
     Resource_Bars_Title=%resource_name{0}%:
     Info_Resource_Amount=%resource{0}%: %amount%
     Msg_No_Resource_Source=No %resource{1}% source
     Msg_No_Resource_Left=Out of %resource{1}%
-
 
 [Part Categories]
     Basic_Parts=Basics
@@ -568,7 +471,6 @@
     Structural_Parts=Structural
     Other_Parts=Other
 
-
 [Part Names]
     Capsule_Name{0}=Capsule
     Capsule_Name{1}=capsule
@@ -576,7 +478,6 @@
     Probe_Name{1}=probe
     Parachute_Name{0}=Parachute
     Parachute_Name{1}=parachute
-
 
     Kolibri_Engine_Name{0}=Kolibri Engine
     Kolibri_Engine_Name{1}=kolibri engine
@@ -595,10 +496,11 @@
     RCS_Thruster_Name{0}=RCS Thruster
     RCS_Thruster_Name{1}=rcs thruster
 
-
     Solid_Rocket_Booster{0}=Solid Rocket Booster
     Solid_Rocket_Booster{1}=solid rocket booster
 
+    Solid_Rocket_Booster{0}=Solid Rocket Booster
+    Solid_Rocket_Booster{1}=solid rocket booster
 
     Fuel_Tank_Name{0}=Fuel Tank
     Fuel_Tank_Name{1}=fuel tank
@@ -631,7 +533,6 @@
     Fuel_Pipe_Name{0}=Fuel Pipe
     Fuel_Pipe_Name{1}=fuel pipe
 
-
 [Part Descriptions]
     Capsule_Description=A small capsule, carrying one astronaut
     Probe_Description=An unmanned probe, used for one way missions
@@ -649,10 +550,11 @@
     Ion_Engine_Description=A low thrust engine with an incredibly high efficiency
     RCS_Thruster_Description=A set of small directional thrusters, used for docking
 
-
     Booster_Description=Has high thrust, low efficiency
     Booster_Description=Cannot be turned off or throttle once ignite
 
+    Booster_Description=Has high thrust, low efficiency
+    Booster_Description=Cannot be turned off or throttled once ignited
 
     Aerodynamic_Nose_Cone_Description=An aerodynamic nose cone, used to improve the aerodynamics of side boosters
     Aerodynamic_Fuselage_Description=An aerodynamic fuselage, used to cover engines
@@ -665,36 +567,29 @@
     Heat_Shield_Description=A heat resistant shield used to survive atmospheric reentry
     Fuel_Pipe_Description=A pipe used to transfer fuel
 
-
 [Modules]
     Torque_Module_Torque=Torque: %value%kN
     Separation_Force=Separation force: %value%kN
-
+    Magnet_Force=Magnet force: %value%kN
 
     Max_Heat_Tolerance=Heat tolerance: %temperature%
-
 
     State_On{0}=On
     State_Off{0}=Off
 
-
     Engine_Module_State=Engine %state{0}%
     Engine_On_Label=Engine on
-
+    Gimbal_On_Label=Gimbal on
 
     Msg_RCS_Module_State=RCS %state{0}%
-
 
     Wheel_Module_State=Rover wheel %state{0}%
     Wheel_On_Label=Wheel on
 
-
     Panel_Expanded=Expanded
     Landing_Leg_Expanded=Deployed
-
-
+    
     Detach_Edges_Label=Detach edges
-
 
     Info_Parachute_Max_Height=Max deploy height: %height%
     Msg_Cannot_Deploy_Parachute_In_Vacuum=Cannot deploy parachute in a vacuum
@@ -705,7 +600,6 @@
     Msg_Parachute_Half_Deployed=Parachute half deployed
     Msg_Parachute_Fully_Deployed=Parachute fully deployed
     Msg_Parachute_Cut=Parachute cut
-
 
 [Planets]
     Sun{0}=Sun
@@ -732,14 +626,12 @@
     Io{0}=Io
     Callisto{0}=Callisto
 
-
 [Landmarks]
-    Sea_of_Tranquility=Sea of Tranquility
-    Sea_of_Serenity=Sea of Serenity
-    Ocean_of_Storms=Ocean of Storms
+    Sea_of_Tranquility=Tranquility Sea
+    Sea_of_Serenity=Serenity Sea
+    Ocean_of_Storms=Storm Ocean
     Copernicus_Crater=Copernicus Crater
     Tycho_Crater=Tycho Crater
-
 
     Olympus_Mons=Olympus Mons
     Valles_Marineris=Valles Marineris
@@ -748,21 +640,17 @@
     Arcadia_Planitia=Arcadia Planitia
     Utopia_Planitia=Utopia Planitia
 
-
     Atalanta_Planitia=Atalanta Planitia
     Lavinia_Planitia=Lavinia Planitia
-
 
     Caloris_Planitia=Caloris Planitia
     Borealis_Planitia=Borealis Planitia
     Maxwell_Montes=Maxwell Montes
 
-
 [Achievements]
     Reached_Height=Reached %height% altitude
     Reached_Karman_Line=You’re now in space!
     Survived_Reentry=Reentered %planet{3}% atmosphere, max temperature %temperature%
-
 
     Reached_Low_Orbit=Reached low %planet{0}% orbit
     Reached_High_Orbit=Reached high %planet{0}% orbit
@@ -770,31 +658,24 @@
     Capture_Low_Orbit=Captured into low %planet{0}% orbit
     Capture_High_Orbit=Captured into high %planet{0}% orbit
 
-
     Entered_Lower_Atmosphere=Entered %planet{3}% lower atmosphere
     Entered_Upper_Atmosphere=Entered %planet{3}% upper atmosphere
     Left_Lower_Atmosphere=Reached %planet{3}% upper atmosphere
     Left_Upper_Atmosphere=Escaped %planet{3}% atmosphere
 
-
     Landed=You have landed on %planet{1}%’s surface!
-
 
     Landed_At_Landmark=You have landed on %planet{1}%’s surface,
     Landed_At_Landmark=
     Landed_At_Landmark=at %landmark%
 
-
     Landed_At_Landmark__Short=You landed on %planet{1}%
     Landed_At_Landmark__Short=at: %landmark%
 
-
     Crashed_Into_Terrain=You have crashed into the surface of %planet{1}%...
 
-
-    Entered_SOI=Welcome to %planet{1}%
-    Escaped_SOI=Exiting %planet{1}%
-
+    Entered_SOI=Welcome to %planet{1}%!
+    Escaped_SOI=Exiting %planet{1}%...
 
     Docked_Suborbital=Docked in a suborbital trajectory of %planet{0}%
     Docked_Orbit_Low=Docked in low %planet{0}% orbit
@@ -802,6 +683,5 @@
     Docked_Orbit_High=Docked in high %planet{0}% orbit
     Docked_Escape=Docked on an escape trajectory of %planet{1}%
     Docked_Surface=Docked on the surface of %planet{1}%
-
 
     Recover_Home=Welcome to your home planet, %planet{1}%
