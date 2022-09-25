@@ -79,6 +79,7 @@
 # Create menu
     Create_World_Title=World Name:
     Default_World_Name=My Universe
+    Default_Solar_System=Base Galaxy
     Select_Solar_System=Select universe's galaxy
 
     Select_Solar_System__NotFound=The following galaxy could not be found:
@@ -176,6 +177,7 @@
     Upgrade_To_Sandbox_Bundle=Upgrade To Godmode
     Full_Bundle=Everything
     Upgrade_To_Full_Bundle=Upgrade To Everything
+    Mac_Full_Version=Full Potential
 
     More_Parts=More Parts...
     More_Skins=More Skins...
@@ -249,6 +251,9 @@
     Menu_Scale=The’s Power
     Menu_Opacity=The’s Effectiveness
     Cloud_Sync=The Cloud
+    Shakes_Name=Shaky
+    Orbit_Line_Count=How many orbit lines?
+    Development_Updates=did you find this, contact me if yes
 
 [Cheats]
     Infinite_Build_Area_Name=Infinite Spacecraft Size (Only Effective when building)
@@ -259,16 +264,7 @@
     No_Gravity_Name=Gravity Nullifier
     No_Heat_Damage_Name=Heat Shield
     No_Burn_Marks_Name=No Burn Marks
-
-[Active Cheats]
-    Using_Infinite_Build_Area=Infinite Spacecraft Size
-    Using_Part_Clipping=Noclipping ON
-    Using_Infinite_Fuel=Infinity Tank ENABLED, you have ∞ fuel
-    Using_No_Atmospheric_Drag=Atmospheric Shield ACTIVE
-    Using_No_Collision_Damage=Bedrock Spacecraft ACTIVE, your spacecraft is immune to everything
-    Using_No_Gravity=Gravity Nullifier ONLINE, spacecraft acting as if in space
-    Using_No_Heat_Damage=Heat Shield ONLINE
-    Using_No_Burn_Marks=No Burn Marks
+    Infinite_Oxygen_Name=Infinite Oxygen Tank
 
 [Tutorials]
 
@@ -377,7 +373,6 @@
     Destroy_Rocket=Destroy
 
 # Game menus   
-    Restart_Mission=Restart Mission
     Recover_Rocket=Recover
     Destroy_Rocket=Delete
 
