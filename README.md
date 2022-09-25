@@ -1,2 +1,2 @@
 # spaceflightsim-flowism-language
-Flowism custom language for Spaceflight Simulator
+<b><u>Go to the "main" branch!<\b><\u>
