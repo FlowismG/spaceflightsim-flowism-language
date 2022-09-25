@@ -376,7 +376,7 @@
     Recover_Rocket=Recover
     Destroy_Rocket=Destroy
 
-[Game menus]
+# Game menus   
     Restart_Mission=Restart Mission
     Recover_Rocket=Recover
     Destroy_Rocket=Delete
