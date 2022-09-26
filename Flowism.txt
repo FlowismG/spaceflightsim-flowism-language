@@ -369,8 +369,6 @@
     Failure_Burn_Up=It burned up on reentry. 
     
 [End mission menu]
-    Recover_Rocket=Recover
-    Destroy_Rocket=Destroy
 
 # Game menus   
     Recover_Rocket=Recover
