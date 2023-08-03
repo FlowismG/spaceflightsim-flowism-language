@@ -6,6 +6,9 @@
     Cancel=Cancel
     Close=Close
 
+    On=On
+    Off=Off
+
     Open_Settings_Button=Settings
     Open_Cheats_Button=Cheats
     Help=Help
@@ -18,48 +21,59 @@
 [Main Menu]
     Play=Play
 
-# Tutorial
     Video_Tutorials_OpenButton=Video Tutorials
     Video_Orbit=Orbit Tutorial
     Video_Moon=Moon Tutorial
     Video_Dock=Docking Tutorial
 
-# Community
+    Development_Preview=Development Preview
+    Development_Preview_Explanation=The development preview showcases future updates we are working on
+
     Community_OpenButton=Community
     Community_Youtube=Youtube
     Community_Discord=Discord
     Community_Reddit=Reddit
     Community_Forums=Forums
 
-# Credits
     Credits_OpenButton=Credits
 
-    Credits_Text=Štefo Mai Morojna
+    Credits_Text=<Size=70> Štefo Mai Morojna </size>
     Credits_Text=<Size=55> Designer - Programmer - Artist </size>
     Credits_Text=
-    Credits_Text=Jordi van der Molen
+    Credits_Text=<Size=70> Jordi van der Molen </size>
     Credits_Text=<Size=55> Programmer </size>
     Credits_Text=
-    Credits_Text=Chris Christo
+    Credits_Text=<Size=70> Chris Christo </size>
     Credits_Text=<Size=55> Programmer </size>
     Credits_Text=
-    Credits_Text=Davi Vasc
+    Credits_Text=<Size=70> Josh </size>
+    Credits_Text=<Size=55> Programmer </size>
+    Credits_Text=
+    Credits_Text=<Size=70> Aidan Ginise </size>
+    Credits_Text=<Size=55> Programmer </size>
+    Credits_Text=
+    Credits_Text=<Size=70> Andrey Onischenko </size>
+    Credits_Text=<Size=55> Programmer </size>
+    Credits_Text=
+    Credits_Text=<Size=70> Davi Vasc </size>
     Credits_Text=<Size=55> Composer </size>
     Credits_Text=
-    Credits_Text=Ashton Mills
+    Credits_Text=<Size=70> Ashton Mills </size>
     Credits_Text=<size=55> Composer </size>
 
-# Update menu
+    First_Time_Playing_Question=First time playing
+    First_Time_Playing_Question=Spaceflight Simulator?
+
+    First_Time_Playing_Yes=First Time Playing
+    First_Time_Playing_No=Played Before
+
     Update_Available=A new update is available!
     Update_Available=
     Update_Available=Current version: %old%
     Update_Available=Latest version: %new%
 
     Update_Confirm=Update
-    Update_Overview_Video_Available=Check out what's new this update?
-    Update_Overview_Video_Confirm=Open
 
-# Rate menu
     Rate_Title=Would you like to rate or review the game?
     Rate_Title=
     Rate_Title=We deeply care about the quality of our game, your feedback helps us improve it
@@ -68,7 +82,6 @@
 
     Rate_Confirm=Rate
 
-# Close menu
     Exit_Button=Exit
     Close_Game=Close game?
 
@@ -90,19 +103,25 @@
     Custom_Solar_System=%name% (Custom)
 
 # World info
-    Last_Played=Last played: %value% ago
-    Just_Played=Last played: A moment ago
-    Time_Played=Playtime: %value%
+    World_Mode_Name=Mode: %value%
+    Mode_Sandbox=Sandbox
+    Mode_Challenge=Challenge
+    Mode_Career=Career
+
+    Allow_Cheats_Name=Allow Cheats: %value%
+    Allow_Cheats_Label=Allow Cheats
+
+    Allow_Quicksaves_Name=Allow Quicksaves: %value%
+    Allow_Quicksaves_Label=Allow Quicksaves
 
     World_Difficulty_Name=Difficulty: %value%
     Difficulty_Normal=Normal
     Difficulty_Hard=Hard
     Difficulty_Realistic=Realistic
 
-    World_Mode_Name=Mode: %value%
-    Mode_Classic=Classic
-    Mode_Career=Career
-    Mode_Sandbox=Sandbox
+    Last_Played=Last played: %value% ago
+    Just_Played=Last played: A moment ago
+    Time_Played=Playtime: %value%
 
 [World Create Menu]
     World_Create_Title=Create World
@@ -110,11 +129,6 @@
     Solar_System_Label=Solar System:
     Mode_Label=Mode:
     Difficulty_Label=Difficulty:
-
-    Difficulty_Scale_Stat=Scale: 1:%scale%
-    Difficulty_Isp_Stat=Specific Impulse: %value%x
-    Difficulty_Dry_Mass_Stat=Tank Dry Mass: %value%x
-    Difficulty_Engine_Mass_Stat=Engine Mass: %value%x
 
 [Saving]
 # Blueprint stuff
@@ -159,30 +173,29 @@
 # Load failure
     Load_Failed=Could not load %filetype{1}% from %filepath%
 
-    Conversion_Success=Detected a 1.4 %filetype{1}% and converted it to %version% format
-
-    Conversion_Failed=Detected a 1.4 %filetype{1}% and converted it to %version% format
-    Conversion_Failed=
-    Conversion_Failed=Conversion failed:
-    Conversion_Failed=%reason%
-
 [Purchasing]
     Open_Shop_Menu=Expansions
     Parts_Expansion=Parts Expansion
+    Redstone_Atlas_Pack=Redstone Atlas Pack
     Skins_Expansion=Skins Expansion
     Planets_Expansion=Planets Expansion
     Cheats_Expansion=Cheats
     Infinite_Area_Expansion=Infinite Build Area
     Builder_Bundle=Builder Bundle
-    Upgrade_To_Builder_Bundle=Upgrade To Builder Bundle
     Sandbox_Bundle=Sandbox Bundle
-    Upgrade_To_Sandbox_Bundle=Upgrade To Sandbox Bundle
     Full_Bundle=Full Bundle
     Upgrade_To_Full_Bundle=Upgrade To Full Bundle
     Mac_Full_Version=Full Version
 
-    More_Parts=More Parts...
-    More_Skins=More Skins...
+    Not_All_Parts_Are_Owned=Not all parts are owned
+    Not_All_Parts_Are_Owned=Disabled not owned parts
+    Not_All_Parts_Are_Owned=
+    Not_All_Parts_Are_Owned=View parts expansion?
+
+    View_Part_Expansion=View Expansion
+
+    More_Parts=View Parts Expansion
+    More_Skins=View Skins Expansion
     Cannot_Use_Cheats_In_Career=Cheats can only be used in a sandbox mode world
     Get_Infinite_Build_Area_Button=Get Infinite Build Area
     Get_Cheats_Expansion_Button=Get Cheats Expansion
@@ -197,12 +210,12 @@
 
     Purchase_Thanks_Msg=Purchased: %product%
     Purchase_Thanks_Msg=
-    Purchase_Thanks_Msg=Thanks for your purchase
+    Purchase_Thanks_Msg=Thanks for your support!
     Purchase_Thanks_Msg=Now go and explore the stars!
 
     Owned=%product% (Owned)
 
-    Restore_Open=Restore
+    Restore_Open=Restore Purchases
 
 # Parts Expansion
     PartsExpansion_Tanks=Large variety of fuel tanks!
@@ -254,14 +267,12 @@
     Menu_Opacity=Interface Opacity
     Shakes_Name=Camera Shake
     Orbit_Line_Count=Orbit Line Count
-    Cloud_Sync=Cloud Sync
-    Development_Updates=Development Updates
+    Anti_Aliasing=Anti-Aliasing
 
 [Cheats]
     Infinite_Build_Area_Name=Infinite Build Area
     Part_Clipping_Name=Part Clipping
     Infinite_Fuel_Name=Infinite Fuel
-    Infinite_Oxygen_Name=Infinite Oxygen
     No_Atmospheric_Drag_Name=No Atmospheric Drag
     No_Collision_Damage_Name=No Collision Damage
     No_Gravity_Name=No Gravity
@@ -285,8 +296,12 @@
     Go_To_Space_Center=Space Center
     Exit_To_Space_Center=Exit To Space Center
     Research_And_Development=Research & Development %complete%/%total%
-    Achievements_Title=Achievements:
-    Achievements_Button=Achievements %complete%/%total%
+    Challenges_Info=Challenges: %complete%/%total%
+    Challenges_Button=Challenges: %complete%/%total%
+    Challenges_Title=Challenges:
+
+    Challenges_Completed=<size=55>Challenge completed:</size>
+    Challenges_Completed=%challenge%
 
 [Build]
     Build_New_Rocket=Build New Rocket
@@ -308,9 +323,10 @@
 
 # Launch warnings
     Warnings_Title=WARNING:
-    Missing_Capsule=Your rocket has no capsule, making it uncontrollable
+    Missing_Capsule=Your rocket has no capsule or probe, making it uncontrollable
     Missing_Parachute=Your rocket has no parachute
     Missing_Heat_Shield=Your rocket has no heat shield
+    Missing_Fuel_Popup=No fuel source
 
     Too_Heavy=Your rocket is too heavy to launch
     Too_Heavy=%mass%
@@ -318,12 +334,16 @@
 
     Launch_Anyway_Button=Launch Anyway
 
+    Launch_Horizontally_Ask=Launch horizontally?
+    Launch_Horizontally_Confirm=Launch Horizontally
+    Launch_Vertically_Confirm=Launch Vertically
+
 # Example rockets
     Example_Rockets_OpenMenu=Example Rockets
     Basic_Rocket=Basic Rocket
-    Stages=Stages
-    Ideal_Stages=Ideal Stages
-    Lander=Lander
+    Stages=Two Stage Rocket
+    Ideal_Stages=Three Stage Rocket
+    Lander=Moon Lander
 
 [Map]
     Toggle_Map_Button=Map
@@ -351,6 +371,14 @@
     Velocity_Vertical=
     Velocity_Vertical=%speed%
 
+    Velocity_Relative_Vertical=Velocity (Relative):
+    Velocity_Relative_Vertical=
+    Velocity_Relative_Vertical=%speed%
+
+    Distance_Relative_Vertical=Distance (Relative):
+    Distance_Relative_Vertical=
+    Distance_Relative_Vertical=%distance%
+
     Angle_Vertical=Angle:
     Angle_Vertical=
     Angle_Vertical=%angle% / %targetAngle%
@@ -358,7 +386,21 @@
     Height_Terrain_Horizontal=Height (Terrain): %height%
     Height_Horizontal=Height: %height%
     Velocity_Horizontal=Velocity: %speed%
+    Velocity_Relative_Horizontal=Velocity (Relative): %speed%
+    Distance_Relative_Horizontal=Distance (Relative): %distance%
     Angle_Horizontal=Angle: %angle% / %targetAngle%
+
+    Relative_Velocity_Arrow=Relative Velocity
+    Relative_Velocity_Arrow=%velocity%
+
+    Side_Velocity_Arrow=Side Velocity
+    Side_Velocity_Arrow=%velocity%
+
+    Forward_Velocity_Arrow=Distance
+    Forward_Velocity_Arrow=%distance%
+    Forward_Velocity_Arrow=
+    Forward_Velocity_Arrow=Velocity
+    Forward_Velocity_Arrow=%velocity%
 
 [Failure menu]
     Failure_Cause=FAILURE CAUSE:
@@ -369,25 +411,29 @@
 [End mission menu]
     Recover_Rocket=Recover
     Destroy_Rocket=Destroy
+    Debris_Recover=Recover Debris
+    Debris_Destroy=Destroy Debris
+    Debris_Recover_Title=Recover debris?
+    Debris_Destroy_Title=Destroy debris?
+    View_Mission_Log=View Flight Log
 
 # Restart menu
-    Restart_Mission_To_Launch=Revert To Launch
-
-    Restart_Mission_To_Launch_Warning=Revert to launch?
-    Restart_Mission_To_Launch_Warning=
     Restart_Mission_To_Launch_Warning=WARNING:
-    Restart_Mission_To_Launch_Warning=This will revert all progress since last launch
+    Restart_Mission_To_Launch_Warning=This will undo all progress since last launch
 
-    Restart_Mission_To_Build=Revert To Build
-
-    Restart_Mission_To_Build_Warning=Revert to build?
-    Restart_Mission_To_Build_Warning=
     Restart_Mission_To_Build_Warning=WARNING:
-    Restart_Mission_To_Build_Warning=This will revert all progress since last launch
+    Restart_Mission_To_Build_Warning=This will undo all progress since last launch
+
+    Restart_Mission_To_Launch=Revert To Launch
+    Restart_Mission_To_Build=Revert To Build
+    Revert_30_Secs=Revert 30 Sec
+    Revert_3_Min=Revert 3 Min
 
 # End mission menu
-    End_Mission_Menu_Title=Mission Achievements:
-    End_Mission=End Mission
+    End_Challenges_Title=Challenges:
+    End_Logs_Title=Mission Log:
+    Continue_To_Log=Continue
+    Back_To_Challenges=Back
 
 # Clear space junk/debris
     Clear_Debris_Warning=Clear debris?
@@ -400,6 +446,8 @@
     End_Navigation=End Navigation
     Focus=Focus
     Unfocus=Unfocus
+    Track=Track
+    Stop_Tracking=Stop Tracking
     Switch_To=Switch To
 
 [Rocket]
@@ -489,8 +537,8 @@
 
     Fuel_Tank_Name{0}=Fuel Tank
     Fuel_Tank_Name{1}=fuel tank
-    Separator_Name{0}=Separator
-    Separator_Name{1}=separator
+    Separator_Name{0}=Stage Separator
+    Separator_Name{1}=stage separator
     Side_Separator_Name{0}=Side Separator
     Side_Separator_Name{1}=side separator
     Structural_Part_Name{0}=Structural Part
@@ -572,6 +620,7 @@
     Landing_Leg_Expanded=Deployed
 
     Detach_Edges_Label=Detach edges
+    Adapt_To_Tanks_Label=Adapt to fuel tanks
 
     Info_Parachute_Max_Height=Max deploy height: %height%
     Msg_Cannot_Deploy_Parachute_In_Vacuum=Cannot deploy parachute in a vacuum
@@ -596,6 +645,9 @@
     Moon{0}=Moon
     Moon{1}=the Moon
     Moon{2}=The Moon
+    Near_Earth_Asteroid{0}=Captured Asteroid
+    Near_Earth_Asteroid{1}=the Captured Asteroid
+    Near_Earth_Asteroid{2}=The Captured Asteroid
     Mars{0}=Mars
     Phobos{0}=Phobos
     Deimos{0}=Deimos
@@ -621,6 +673,7 @@
     Hellas_Planitia=Hellas Planitia
     Arcadia_Planitia=Arcadia Planitia
     Utopia_Planitia=Utopia Planitia
+    Jezero_Crater=Jezero Crater
 
     Atalanta_Planitia=Atalanta Planitia
     Lavinia_Planitia=Lavinia Planitia
@@ -628,6 +681,53 @@
     Caloris_Planitia=Caloris Planitia
     Borealis_Planitia=Borealis Planitia
     Maxwell_Montes=Maxwell Montes
+
+[Challenges]
+    Liftoff_Title=Liftoff
+    Liftoff=Liftoff and land safely
+
+    Reach10km_Title=Reach 10km
+    Reach10km=Reach 10km and land safely
+
+    ReachSpace_Title=Reach Space
+    ReachSpace=Reach %height%, then survive reentry and land safely
+
+    Land100kmDownrange_Title=Land 100km downrange
+    Land100kmDownrange=Land at least 100km away from the launch pad
+
+    ReachLowEarthOrbit_Title=Reach Low Earth Orbit
+    ReachLowEarthOrbit=Reach low Earth orbit, then land safely
+
+    ReachHighEarthOrbit_Title=Reach High Earth Orbit
+    ReachHighEarthOrbit=Reach high Earth orbit, then land safely
+
+    MoonOrbit_Title=Moon Orbit
+    MoonOrbit=Capture into low Moon orbit, then return safely
+
+    MoonTour_Title=Moon Tour
+    MoonTour=Land on 3 separate landmarks, then return safely
+
+    AsteroidImpact_Title=Asteroid Impact
+    AsteroidImpact=Crash into the surface of the Captured Asteroid at 200+ m/s
+
+    MarsGrandTour_Title=Mars Grand Tour
+    MarsGrandTour=Land on Mars, Phobos and Deimos in one flight, then return safely
+
+    VenusLanding_Title=Venus Landing
+    VenusLanding=Descend through the thick atmosphere and land on the surface of Venus
+
+    VenusReturn_Title=Venus Return
+    VenusReturn=Land on the surface of Venus, then ascend trough the thick atmosphere and return safely
+
+    MercuryLanding_Title=Mercury Landing
+    MercuryLanding=Land on the surface of Mercury
+
+    MercuryReturn_Title=Mercury Return
+    MercuryReturn=Land on the surface of Mercury, then return safely
+
+
+    LandAndReturn_Title=%planet{0}% Landing
+    LandAndReturn=Land on the surface of %planet{0}%, then return safely
 
 [Achievements]
     Reached_Height=Reached %height% altitude
@@ -648,11 +748,10 @@
     Landed=Landed on the surface of %planet{1}%
 
     Landed_At_Landmark=Landed on the surface of %planet{1}%
-    Landed_At_Landmark=
-    Landed_At_Landmark=Location: %landmark%
+    Landed_At_Landmark=<size=55>Location: %landmark%</size>
 
     Landed_At_Landmark__Short=Landed on the surface of %planet{1}%
-    Landed_At_Landmark__Short=Location: %landmark%
+    Landed_At_Landmark__Short=- %landmark% -
 
     Crashed_Into_Terrain=Crashed into the surface of %planet{1}%
 
